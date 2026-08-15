@@ -1,0 +1,14 @@
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\bin\Debug\net10.0\NtdLesson01.exe
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\bin\Debug\net10.0\NtdLesson01.deps.json
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\bin\Debug\net10.0\NtdLesson01.runtimeconfig.json
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\bin\Debug\net10.0\NtdLesson01.dll
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\bin\Debug\net10.0\NtdLesson01.pdb
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\NtdLesson01.GeneratedMSBuildEditorConfig.editorconfig
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\NtdLesson01.AssemblyInfoInputs.cache
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\NtdLesson01.AssemblyInfo.cs
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\NtdLesson01.csproj.CoreCompileInputs.cache
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\NtdLesson01.dll
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\refint\NtdLesson01.dll
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\NtdLesson01.pdb
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\NtdLesson01.genruntimeconfig.cache
+D:\HK1N3\LTW\NguyenThaiDuong241230691\NtdLesson01\NtdLesson01\obj\Debug\net10.0\ref\NtdLesson01.dll

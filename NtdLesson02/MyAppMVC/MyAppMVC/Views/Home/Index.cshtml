@@ -1,0 +1,33 @@
+﻿@model IEnumerable<MyAppMVC.Models.Product>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="p-5 text-center text-white rounded mb-4" style="background: linear-gradient(135deg, #0d3b66, #001f3f);">
+    <div class="d-flex justify-content-center align-items-center mb-3">
+        <h1 class="me-4 mb-0 fw-bold">Microsoft Azure</h1>
+        <span class="fs-1">🌐 🛡️ 🗄️ 📊</span>
+    </div>
+    <p class="lead">Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.</p>
+    <a href="#" class="btn btn-light btn-sm fw-bold px-3 py-2">Learn More</a>
+</div>
+
+<h3 class="mb-4 text-secondary">Danh sách sản phẩm</h3>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 col-sm-6 mb-4">
+            <div class="card h-100 text-center shadow-sm p-3 border">
+                <div class="d-flex align-items-center justify-content-center" style="height: 180px;">
+                    <img src="@item.ImageUrl" class="img-fluid" style="max-height: 160px; object-fit: contain;" alt="@item.Name"
+                         onerror="this.src='https://via.placeholder.com/150?text=Bag';" />
+                </div>
+                <div class="card-body p-2 mt-2 border-top">
+                    <p class="card-title text-muted fw-bold mb-0">@item.Name</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

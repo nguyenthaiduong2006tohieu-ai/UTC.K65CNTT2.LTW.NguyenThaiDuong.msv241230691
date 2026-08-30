@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\ntdlesson01\\ntdlesson01\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|solutionrelative:ntdlesson01\\domain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\ntdlesson01\\ntdlesson01\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|solutionrelative:ntdlesson01\\application.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\ntdlesson01\\ntdlesson01\\infrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|solutionrelative:ntdlesson01\\infrastructure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\ntdlesson01\\ntdlesson01\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|solutionrelative:ntdlesson01\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\ntdlesson01\\ntdlesson01\\ntdlesson01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23639E80-3965-F92E-47EE-5822219EA3AC}|NtdLesson01\\NtdLesson01.csproj|solutionrelative:ntdlesson01\\ntdlesson01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Infrastructure.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\Infrastructure.cs",
+              "RelativeDocumentMoniker": "NtdLesson01\\Infrastructure.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\Infrastructure.cs",
+              "RelativeToolTip": "NtdLesson01\\Infrastructure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:47:13.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\Entities.cs",
+              "RelativeDocumentMoniker": "NtdLesson01\\Entities.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\Entities.cs",
+              "RelativeToolTip": "NtdLesson01\\Entities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:47:12.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Domain.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\Domain.cs",
+              "RelativeDocumentMoniker": "NtdLesson01\\Domain.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\Domain.cs",
+              "RelativeToolTip": "NtdLesson01\\Domain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:47:10.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Application.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\Application.cs",
+              "RelativeDocumentMoniker": "NtdLesson01\\Application.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\Application.cs",
+              "RelativeToolTip": "NtdLesson01\\Application.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-20T19:47:09.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NtdLesson01.csproj",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\NtdLesson01.csproj",
+              "RelativeDocumentMoniker": "NtdLesson01\\NtdLesson01.csproj",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\NtdLesson01\\NtdLesson01\\NtdLesson01.csproj",
+              "RelativeToolTip": "NtdLesson01\\NtdLesson01.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-20T19:44:59.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

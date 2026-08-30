@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Chi tiết sản phẩm";
+    var product = ViewBag.Product as MyAppMVC.Models.Product;
+}
+
+<div class="container mt-4">
+    <h3 class="mb-4">Chi tiết sản phẩm</h3>
+    @if (product != null)
+    {
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="@product.Image" alt="@product.Name" class="img-fluid border p-2" style="max-height: 350px;">
+            </div>
+            <div class="col-md-8">
+                <h2>Sản phẩm: @product.Name</h2>
+                <h5 class="my-3">
+                    <span class="text-muted"><del>Giá gốc: @product.Price.ToString("N0")</del></span>
+                    <span class="text-danger fw-bold ms-3">Giá mới: @product.SalePrice.ToString("N0")</span>
+                </h5>
+                <p><strong>Mô Tả:</strong></p>
+                <p class="text-secondary">@product.Description</p>
+                <p><strong>Trạng thái:</strong> @(product.Status ? "Còn hàng" : "Hết hàng")</p>
+                <p><strong>Ngày đăng:</strong> @product.CreatedAt.ToString("dd/MM/yyyy hh:mm:ss tt")</p>
+
+                <a asp-route="sanpham" class="btn btn-danger btn-sm mt-3">Về danh sách</a>
+            </div>
+        </div>
+    }
+</div>

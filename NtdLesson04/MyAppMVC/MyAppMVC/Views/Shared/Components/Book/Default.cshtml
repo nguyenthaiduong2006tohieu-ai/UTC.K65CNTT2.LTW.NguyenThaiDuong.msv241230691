@@ -1,0 +1,16 @@
+﻿@model IEnumerable<MyAppMVC.Models.Book>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-3 col-sm-6 mb-3 text-center">
+            <div class="card p-2 shadow-sm h-100">
+                <img src="@item.Image" class="card-img-top mx-auto" style="height: 160px; object-fit: contain;" alt="@item.Title" />
+                <div class="card-body p-2">
+                    <h6 class="card-title text-truncate">@item.Title</h6>
+                    <p class="text-danger fw-bold mb-0">Price: @item.Price.ToString("N0") đ</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

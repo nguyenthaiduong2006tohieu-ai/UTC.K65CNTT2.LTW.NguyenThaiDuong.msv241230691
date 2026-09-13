@@ -1,0 +1,15 @@
+﻿@model IEnumerable<MyAppMVC.Models.Product>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card h-100 p-2 shadow-sm text-center">
+                <img src="@item.Image" class="card-img-top mx-auto" style="height: 160px; object-fit: contain;" alt="@item.Name" />
+                <div class="card-body p-2">
+                    <p class="card-text small fw-bold">@item.Name</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

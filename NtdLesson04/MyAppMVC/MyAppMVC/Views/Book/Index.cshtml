@@ -1,0 +1,60 @@
+﻿@model IEnumerable<MyAppMVC.Models.Book>
+
+@{
+    ViewData["Title"] = "Danh sách các cuốn sách";
+}
+
+<div class="container mt-3">
+    <h2 class="mb-3">Danh sách các cuốn sách</h2>
+
+    <form action="" method="POST" class="row g-2 align-items-center mb-3">
+        <div class="col-auto">
+            <select name="AuthorId" class="form-select form-control" asp-items="@ViewBag.authors">
+                <option value="">Chọn tác giả</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <select name="GenreId" class="form-select form-control" asp-items="@ViewBag.genres">
+                <option value="">Chọn Thể loại</option>
+            </select>
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+            <a asp-action="Create" class="btn btn-danger">Thêm mới</a>
+        </div>
+    </form>
+
+    <hr />
+
+    <table class="table table-bordered align-middle table-hover">
+        <thead class="table-light">
+            <tr>
+                <th>Id</th>
+                <th>Tiêu đề</th>
+                <th>Tác giả</th>
+                <th>Thể loại</th>
+                <th>Giá</th>
+                <th>Hình ảnh</th>
+                <th>Chức năng</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var bookItem in Model)
+            {
+                <tr>
+                    <td>@bookItem.Id</td>
+                    <td>@bookItem.Title</td>
+                    <td>@bookItem.AuthorId</td>
+                    <td>@bookItem.GenreId</td>
+                    <td>@bookItem.Price.ToString("N0") đ</td>
+                    <td>
+                        <img src="@bookItem.Image" alt="@bookItem.Title" width="40" class="border rounded" />
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@bookItem.Id" class="btn btn-sm btn-primary">Sửa</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

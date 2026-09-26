@@ -1,0 +1,53 @@
+﻿@model IEnumerable<TvcLesson06Models.Models.TvcMember>
+
+@{
+    ViewData["Title"] = "TvcIndex";
+}
+
+<h1>TvcIndex</h1>
+
+<p>
+    <a asp-action="TvcCreate">Create New</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcMemberUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcMemberPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcMemberEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TvcMemberFullName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.TvcMemberUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.TvcMemberPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.TvcMemberEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.TvcMemberFullName)
+            </td>
+            <td>
+                    @Html.ActionLink("Sửa", "TvcEdit", new { id = item.TvcMemberId }) |
+                    @Html.ActionLink("Details", "TvcDetails", new { id = item.TvcMemberId }) |
+                    @Html.ActionLink("Delete", "TvcDelete", new { id = item.TvcMemberId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

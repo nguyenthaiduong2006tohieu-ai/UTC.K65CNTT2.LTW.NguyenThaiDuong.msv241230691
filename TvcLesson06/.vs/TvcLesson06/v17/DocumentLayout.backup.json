@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HK1N3\\LTTQ\\TvcLesson06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\views\\tvcmember\\tvcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:views\\tvcmember\\tvcindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\views\\tvcmember\\tvccreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:views\\tvcmember\\tvccreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\views\\tvcmember\\tvcedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:views\\tvcmember\\tvcedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\views\\tvcmember\\tvcdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:views\\tvcmember\\tvcdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\views\\tvcmember\\tvcdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:views\\tvcmember\\tvcdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\controllers\\tvcmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:controllers\\tvcmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\views\\tvcgetdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:views\\tvcgetdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\models\\tvcmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:models\\tvcmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\views\\tvcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:views\\tvcabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|d:\\hk1n3\\lttq\\tvclesson06\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7CD7DF64-3DB0-46D5-B284-EBE47EB30169}|TvcLesson06.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TvcDetails.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcMember\\TvcDetails.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcDetails.cshtml",
+              "RelativeToolTip": "Views\\TvcMember\\TvcDetails.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswCwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T07:00:20.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TvcDelete.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcDelete.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcMember\\TvcDelete.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcDelete.cshtml",
+              "RelativeToolTip": "Views\\TvcMember\\TvcDelete.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwCYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T06:55:09.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TvcEdit.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcEdit.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcMember\\TvcEdit.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcEdit.cshtml",
+              "RelativeToolTip": "Views\\TvcMember\\TvcEdit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T06:33:19.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TvcCreate.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcCreate.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcMember\\TvcCreate.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcCreate.cshtml",
+              "RelativeToolTip": "Views\\TvcMember\\TvcCreate.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T06:17:38.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TvcIndex.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcIndex.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcMember\\TvcIndex.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcMember\\TvcIndex.cshtml",
+              "RelativeToolTip": "Views\\TvcMember\\TvcIndex.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T06:02:46.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TvcGetDetails.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcGetDetails.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcGetDetails.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcGetDetails.cshtml",
+              "RelativeToolTip": "Views\\TvcGetDetails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T05:50:44.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TvcMemberController.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Controllers\\TvcMemberController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TvcMemberController.cs",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Controllers\\TvcMemberController.cs",
+              "RelativeToolTip": "Controllers\\TvcMemberController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAowI8AAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T05:46:13.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TvcMember.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Models\\TvcMember.cs",
+              "RelativeDocumentMoniker": "Models\\TvcMember.cs",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Models\\TvcMember.cs",
+              "RelativeToolTip": "Models\\TvcMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T05:43:49.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TvcAbout.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcAbout.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcAbout.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\TvcAbout.cshtml",
+              "RelativeToolTip": "Views\\TvcAbout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T05:39:21.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAtwBkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-26T05:34:54.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTTQ\\TvcLesson06\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-09-26T05:33:33.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

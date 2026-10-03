@@ -1,0 +1,48 @@
+@model NtdLesson06Models.Models.NtdMember
+
+@{
+    ViewData["Title"] = "NtdCreate";
+}
+
+<h1>NtdCreate</h1>
+
+<h4>NtdMember</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NtdCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="NtdMemberUserName" class="control-label"></label>
+                <input asp-for="NtdMemberUserName" class="form-control" />
+                <span asp-validation-for="NtdMemberUserName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NtdMemberPassword" class="control-label"></label>
+                <input asp-for="NtdMemberPassword" class="form-control" />
+                <span asp-validation-for="NtdMemberPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NtdMemberEmail" class="control-label"></label>
+                <input asp-for="NtdMemberEmail" class="form-control" />
+                <span asp-validation-for="NtdMemberEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NtdMemberFullName" class="control-label"></label>
+                <input asp-for="NtdMemberFullName" class="form-control" />
+                <span asp-validation-for="NtdMemberFullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

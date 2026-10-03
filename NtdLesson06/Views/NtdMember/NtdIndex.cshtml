@@ -1,0 +1,53 @@
+﻿@model IEnumerable<NtdLesson06Models.Models.NtdMember>
+
+@{
+    ViewData["Title"] = "NtdIndex";
+}
+
+<h1>NtdIndex</h1>
+
+<p>
+    <a asp-action="NtdCreate">Create New</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NtdMemberUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NtdMemberPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NtdMemberEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NtdMemberFullName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.NtdMemberUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NtdMemberPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NtdMemberEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NtdMemberFullName)
+            </td>
+            <td>
+                    @Html.ActionLink("Sửa", "NtdEdit", new { id = item.NtdMemberId }) |
+                    @Html.ActionLink("Details", "NtdDetails", new { id = item.NtdMemberId }) |
+                    @Html.ActionLink("Delete", "NtdDelete", new { id = item.NtdMemberId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

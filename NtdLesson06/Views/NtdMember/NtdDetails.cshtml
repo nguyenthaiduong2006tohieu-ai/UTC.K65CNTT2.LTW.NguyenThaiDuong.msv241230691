@@ -1,0 +1,45 @@
+@model NtdLesson06Models.Models.NtdMember
+
+@{
+    ViewData["Title"] = "NtdDetails";
+}
+
+<h1>NtdDetails</h1>
+
+<div>
+    <h4>NtdMember</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NtdMemberUserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NtdMemberUserName)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NtdMemberPassword)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NtdMemberPassword)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NtdMemberEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NtdMemberEmail)
+        </dd>
+
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.NtdMemberFullName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.NtdMemberFullName)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="NtdEdit" asp-route-id="@Model?.NtdMemberId">Edit</a> |
+    <a asp-action="NtdIndex">Back to List</a>
+</div>

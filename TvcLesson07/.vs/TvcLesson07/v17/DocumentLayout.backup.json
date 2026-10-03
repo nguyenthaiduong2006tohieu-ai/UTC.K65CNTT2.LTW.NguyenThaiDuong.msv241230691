@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\controllers\\tvcmemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:controllers\\tvcmemberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\models\\tvcmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:models\\tvcmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\views\\tvcmembers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:views\\tvcmembers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|d:\\hk1n3\\ltw\\nguyenthaiduong241230691\\tvclesson07\\views\\tvcmembers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6ECAC89D-A1DD-4EC4-B014-7A2D580F1EB1}|TvcLesson07.csproj|solutionrelative:views\\tvcmembers\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwDMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-03T17:30:27.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Products\\Create.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-03T17:29:31.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwDoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:22:12.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:18:35.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T17:18:14.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Views\\TvcMembers\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcMembers\\Index.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Views\\TvcMembers\\Index.cshtml",
+              "RelativeToolTip": "Views\\TvcMembers\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-03T16:57:13.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Views\\TvcMembers\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\TvcMembers\\Create.cshtml",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Views\\TvcMembers\\Create.cshtml",
+              "RelativeToolTip": "Views\\TvcMembers\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-10-03T16:56:53.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TvcMembersController.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Controllers\\TvcMembersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TvcMembersController.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Controllers\\TvcMembersController.cs",
+              "RelativeToolTip": "Controllers\\TvcMembersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T16:45:40.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TvcMember.cs",
+              "DocumentMoniker": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Models\\TvcMember.cs",
+              "RelativeDocumentMoniker": "Models\\TvcMember.cs",
+              "ToolTip": "D:\\HK1N3\\LTW\\NguyenThaiDuong241230691\\TvcLesson07\\Models\\TvcMember.cs",
+              "RelativeToolTip": "Models\\TvcMember.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-03T16:43:45.321Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

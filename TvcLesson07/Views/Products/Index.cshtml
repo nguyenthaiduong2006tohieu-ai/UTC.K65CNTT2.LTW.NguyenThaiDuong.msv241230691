@@ -1,0 +1,52 @@
+﻿@model IEnumerable<TvcLesson07.Models.Product>
+
+@{
+    ViewData["Title"] = "Danh sách sản phẩm";
+    var categories = ViewBag.Categories as List<TvcLesson07.Models.Category>;
+}
+
+<div class="container mt-4">
+    <h2>Danh sách sản phẩm</h2>
+    <p>
+        <a asp-action="Create" class="btn btn-success">Thêm mới sản phẩm</a>
+    </p>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Tên sản phẩm</th>
+                <th>Ảnh</th>
+                <th>Giá chuẩn</th>
+                <th>Giá khuyến mãi</th>
+                <th>Danh mục</th>
+                <th>Mô tả</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    var categoryName = categories?.FirstOrDefault(c => c.Id == item.CategoryId)?.Name ?? "Không xác định";
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>
+                            <img src="@item.Image" alt="Product Image" style="width: 60px; height: 60px; object-fit: cover;" />
+                        </td>
+                        <td>@item.Price.ToString("N0") đ</td>
+                        <td>@item.SalePrice.ToString("N0") đ</td>
+                        <td>@categoryName</td>
+                        <td>@item.Description</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="7" class="text-center text-muted">Chưa có sản phẩm nào.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

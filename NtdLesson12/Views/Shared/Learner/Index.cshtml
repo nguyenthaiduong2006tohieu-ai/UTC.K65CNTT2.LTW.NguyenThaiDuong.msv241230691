@@ -1,0 +1,26 @@
+﻿@model IEnumerable<NtdLesson12.Models.Learner>
+<div class="ms-2 mx-2">
+    <h1>Learner List</h1>
+    <!-- Gọi ViewComponent hiển thị chuyên ngành -->
+    @await Component.InvokeAsync("Major")
+
+    <!-- Vùng chứa bảng dữ liệu thay đổi bằng AJAX -->
+    <div id="content">
+        <partial name="LearnerTable" model="Model" />
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $("li").click(function (e) {
+            var id = $(this).attr("id");
+            $.ajax({
+                url: '/Learner/LearnerByMajorID',
+                data: { mid: id },
+                success: function (response) {
+                    $("div#content").html(response);
+                }
+            });
+        });
+    </script>
+}

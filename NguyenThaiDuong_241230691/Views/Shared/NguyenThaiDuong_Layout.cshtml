@@ -1,0 +1,27 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Nguyễn Thái Dương - 241230691</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="~/css/style.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+    <!-- Begin Wrap -->
+    <div class="wrap">
+        <partial name="NguyenThaiDuong_Header" />
+
+        <!-- Begin Main -->
+        <div class="main">
+            @RenderBody()
+        </div>
+        <!-- End Main -->
+    </div>
+    <!-- End Wrap -->
+
+    <partial name="NguyenThaiDuong_Footer" />
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

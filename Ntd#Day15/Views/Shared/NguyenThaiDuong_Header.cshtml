@@ -1,0 +1,26 @@
+﻿<header class="header">
+    <div class="topbar">
+        <div class="container">
+            <span> Phòng hành chính - Quản trị : <b>(024) 3999 8888</b> &nbsp;| &nbsp; Hỗ trợ: taisan@asethub.vn </span>
+            <span> Xin chào, Quản trị viên &nbsp;| &nbsp; Đăng xuất</span>
+        </div>
+    </div>
+    <div class="header-main">
+        <div class="container">
+            <a asp-controller="Home" asp-action="Index"><img src="~/images/logo.png" alt="AssetHub" /></a>
+            <div class="cart-box">Tổng tài sản: 16 - Nguyên giá : 3.125 triệu </div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <div class="container">
+            <ul class="menu">
+                <li class="active"><a asp-controller="Home" asp-action="Index">Nguyễn Thái Dương</a></li>
+                @await Component.InvokeAsync("LoaiTaiSan")
+            </ul>
+            <form class="search-box">
+                <input type="text" placeholder="Tìm kiếm tài sản..." />
+                <button type="button">Tìm</button>
+            </form>
+        </div>
+    </nav>
+</header>

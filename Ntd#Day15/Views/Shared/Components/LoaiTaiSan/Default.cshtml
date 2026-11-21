@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Ntd_Day15.Models.LoaiTaiSan>
+
+@foreach (var item in Model)
+{
+    <li>
+        <a href="javascript:void(0)" class="menu-loai" data-id="@item.MaLoai" data-ten="@item.TenLoai">
+            @item.TenLoai.ToUpper()
+        </a>
+    </li>
+}

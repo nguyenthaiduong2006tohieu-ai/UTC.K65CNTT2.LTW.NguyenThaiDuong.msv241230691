@@ -1,0 +1,40 @@
+﻿@model IEnumerable<NguyenThaiDuong_241230691.Models.HangHoa>
+
+<div class="content">
+    <div class="content_top">
+        <div class="heading">
+            <h3>NGUYỄN THÁI DƯƠNG</h3>
+        </div>
+        <div class="see">
+            <p><a asp-controller="Home" asp-action="Create">Thêm Hàng Hóa Mới ></a></p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="section group" id="product-list">
+        <partial name="_DanhSachHangPartial" model="Model" />
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".filter-loai").click(function (e) {
+                e.preventDefault();
+                var id = $(this).data("id");
+
+                $(".menu li").removeClass("active");
+                $(this).parent().addClass("active");
+
+                $.ajax({
+                    url: '/Home/LocHangTheoLoai',
+                    type: 'GET',
+                    data: { maLoai: id },
+                    success: function (res) {
+                        $("#product-list").html(res);
+                    }
+                });
+            });
+        });
+    </script>
+}

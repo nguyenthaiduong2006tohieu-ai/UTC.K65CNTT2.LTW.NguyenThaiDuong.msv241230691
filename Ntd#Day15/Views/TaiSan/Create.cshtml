@@ -1,0 +1,32 @@
+﻿@model Ntd_Day15.Models.TaiSan
+
+<div style="max-width: 550px; margin: 20px auto; background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <h3 style="margin-bottom: 20px; color: #1b365d; text-transform: uppercase;">THÊM TÀI SẢN MỚI</h3>
+    <form asp-action="Create" method="post">
+        <div style="margin-bottom: 15px;">
+            <label style="display:block; font-weight:bold; margin-bottom:5px;">Loại tài sản</label>
+            <select asp-for="MaLoai" asp-items="ViewBag.MaLoai" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;"></select>
+            <span asp-validation-for="MaLoai" style="color:red; font-size:13px;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label style="display:block; font-weight:bold; margin-bottom:5px;">Tên tài sản</label>
+            <input asp-for="TenTS" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;" />
+            <span asp-validation-for="TenTS" style="color:red; font-size:13px;"></span>
+        </div>
+
+        <div style="margin-bottom: 15px;">
+            <label style="display:block; font-weight:bold; margin-bottom:5px;">Nguyên giá (triệu)</label>
+            <input asp-for="NguyenGia" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;" />
+            <span asp-validation-for="NguyenGia" style="color:red; font-size:13px;"></span>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+            <label style="display:block; font-weight:bold; margin-bottom:5px;">Tên file ảnh</label>
+            <input asp-for="Anh" style="width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;" />
+            <span asp-validation-for="Anh" style="color:red; font-size:13px;"></span>
+        </div>
+
+        <button type="submit" class="btn-buy" style="padding: 10px 25px; font-size: 15px;">Create</button>
+    </form>
+</div>

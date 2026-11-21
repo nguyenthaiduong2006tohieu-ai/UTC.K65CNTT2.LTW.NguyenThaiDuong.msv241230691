@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Ntd_Day15.Models.TaiSan>
+
+<partial name="_DanhSachTaiSan" model="Model" />
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(".menu-loai").click(function () {
+                var id = $(this).data("id");
+                var ten = $(this).data("ten");
+
+                $(".menu li").removeClass("active");
+                $(this).parent().addClass("active");
+
+                $.ajax({
+                    url: '@Url.Action("LocTheoLoai", "Home")',
+                    type: 'GET',
+                    data: { maLoai: id, tenLoai: ten },
+                    success: function (res) {
+                        $("#main-content-area").html(res);
+                    }
+                });
+            });
+        });
+    </script>
+}
